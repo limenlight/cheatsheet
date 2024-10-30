@@ -1,0 +1,66 @@
+.source-code-pro-code {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.open-sans-regular {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body {
+    background-color: #f5fcff;
+}
+h1, h2, h3 {
+    font-family: "Roboto";
+}
+.title {
+    text-align: center;
+    background-color: #abd5e7;
+    position: relative;
+    display: block;
+    padding: 40px 0;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+
+}
+p{
+    font-family: "Open Sans";
+    text-align: justify;
+}
+thead {
+    background-color: #c1c1c1;
+}
+.html, span {
+    text-align: center;
+    font-family: "Source Code Pro";
+    background-color: #ffffffda;
+}
+table, tr {
+    text-align: justify;
+    background-color: rgba(16,22,47,0.04);
+    font-family: "Open Sans";
+}
+.table-t {
+    padding: 10px;
+}
+footer { 
+    font-family: "Roboto";
+    background-color: #d7e7ee4c;
+    text-align: center;
+    position: relative;
+    display: block;
+    padding: 40px 0;
+    font-weight: 100;
+}

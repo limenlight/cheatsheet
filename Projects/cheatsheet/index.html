@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheatSheet by Carlos</title>
+    <link href="/Users/cgarcia/Web-develop/Projects/cheatsheet/resources/index.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="title">Web Programming Basics</h1>
+    <div class="intro">
+        <h2>HTML</h2>
+        <p>HTML, short for HyperText Markup Language, is the foundation of all web pages. 
+            It was created by Tim Berners-Lee in 1993 to define the structure of a web page. 
+            Without it, you wouldn’t be able to organize text or add images or videos to your pages. 
+            HTML is the beginning of everything you need to know to make your first website.
+        </p>
+    </div>
+    <div class="tags">
+        <h2>TAGS</h2>
+        <p>
+            In HTML, tags are commonly defined as a set of characters constituting a formatted command for a web page. 
+            They are used for making elements for the web page’s markup. During the early days of the World Wide Web, 
+            tags were responsible for a majority of the web’s code.
+        </p>
+        <p>A single tag is made of an opening angle bracket <span>&lt;</span>, followed by the element-name, followed by the closing angle bracket. 
+            While most elements are made of opening and closing tags some are self-closing. 
+            Furthermore, some self-closing elements like <span>&lt;br&gt;</span> can have a slash at the end like so: <span>&lt;br /&gt;</span>. 
+            The other self-closing tags include: <span>&lt;area&gt;</span>, <span>&lt;base&gt;</span>, <span>&lt;col&gt;</span>, <span>&lt;embed&gt;</span>, <span>&lt;hr&gt;</span>, 
+            <span>&lt;img&gt;</span>, <span>&lt;input&gt;</span>, <span>&lt;keygen&gt;</span>, <span>&lt;link&gt;</span>, <span>&lt;meta&gt;</span>, 
+            <span>&lt;param&gt;</span>, <span>&lt;source&gt;</span>, <span>&lt;track&gt;</span>, and <span>&lt;wbr&gt;</span>.
+        </p>
+    </div>
+    <div class="tables">
+        <h2>HTML Tables</h2>
+        <h3>What is a table?</h3>
+        <p>A table is a structured set of data made up of rows and columns (tabular data). 
+            A table allows you to quickly and easily look up values that indicate some kind of connection between different types of data,
+            for example a person and their age, or a day of the week, or the timetable for a local swimming pool.
+        </p>
+        <img src="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics/numbers-table.png" alt="table-example">
+        <h3>HTML Table Structure</h3>
+        <p>Tables are composed of multiple smaller types of elements that have special meaning within the table structure. 
+            The elements that are used in the construction of a typical table are as follows:
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>TAG</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="html">&lt;table&gt;</td>
+                    <td class="table-t">TABLE</td>
+                    <td>Serves as the container for all elements and information contained within the table including headers, columns, and rows.</td>
+                </tr>
+                <tr>
+                    <td class="html">&lt;thead&gt;</td>
+                    <td class="table-t">TABLE HEAD</td>
+                    <td>The set of rows defining the column headers in a table.</td>
+                </tr>
+                <tr>
+                    <td class="html">&lt;th&gt;</td>
+                    <td class="table-t">TABLE HEADER</td>
+                    <td>Is used to display data for a specific column header within a table.</td>
+                </tr>
+                <tr>
+                    <td class="html">&lt;tbody&gt;</td>
+                    <td class="table-t">TABLE BODY</td>
+                    <td>The set of rows containing actual table data.</td>
+                </tr>
+                <tr>
+                    <td class="html">&lt;tr&gt;</td>
+                    <td class="table-t">TABLE ROW</td>
+                    <td>The table row element, is used to display data within a row (horizontally) in a table.</td>
+                </tr>
+                <tr>
+                    <td class="html">&lt;td&gt;</td>
+                    <td class="table-t">TABLE DATA</td>
+                    <td>The table data element, is used to display individual data within a specific row/column position in a table.</td>
+                </tr>
+                <tr>
+                    <td class="html">&lt;tfoot&gt;</td>
+                    <td class="table-t">TABLE FOOT</td>
+                    <td>The set of rows defining the footer in a table.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Table with Colspan</h3>
+        <p>
+            Colspan is an attribute which assigns multiple columns to a cell of a table.
+             The number of columns depends on the value entered by you in <span>colspan=""</span> attribute.
+        </p>
+        <h3>Table with Rowspan</h3>
+        <p>
+            Rowspan in table, works similar to the clospan for columns, but here, we assign multiple rows to a cell using an attribute <span>rowspan=""</span>.
+        </p>
+    </div>
+    <div class="css">
+        <h2>CSS</h2>
+        <p>CSS, short for Cascading Style Sheets, is a style sheet language used to style websites. 
+            Colors, fonts, and page layouts for a site can all be managed using CSS. 
+            The more comfortable you are with CSS, the better equipped you will be to create an appealing website. 
+        </p>
+        <h3>Selectors</h3>
+        <p>Selectors are used to style HTML elements according to their type and/or attributes.</p>
+        <ul>
+            <li>
+                <p>All markups can be selected with the <span>*</span> selector:</p>
+                <img src="/Users/cgarcia/Web-develop/Projects/cheatsheet/resources/images/all-markups.png" alt="all-markups">
+            </li>
+            <li>
+                <p>Selecting by Type: The element selector selects HTML elements based on the element name. 
+                    The element-type must be a valid HTML element.
+                </p>
+                <img src="/Users/cgarcia/Web-develop/Projects/cheatsheet/resources/images/element-type.png" alt="element-type">
+            </li>
+            <li>
+                <p>
+                    Selecting by Attribute: The class selector selects elements that are assigned a class attribute, 
+                    it can be used across multiple elements, and begins with a period, .. Similarly, the id selector selects an HTML element that 
+                    has an id attribute. In contrast, the id selector can only be applied once and begins with the hashtag symbol, #.
+                </p>
+                <img src="/Users/cgarcia/Web-develop/Projects/cheatsheet/resources/images/select-attribute.png" alt="select-attribute">
+                <p>
+                    The id of an element is unique within a page, so the id selector is used to select one unique element. An element can be selected with a specific id, by using a hash (#) character, followed by id-name.
+                </p>
+                <p>
+                    Multiple class values can be assigned to a single element. Elements are selected by class with a period (.) character, followed by class-name. Unlike id values, class values can be duplicated on a page with different elements.
+                </p>
+            </li>
+            <li>
+                <p>
+                    The CSS Grouping Selector: The grouping selector selects a group of HTML elements and applies a specific set of styles to each one of them, helping in minimizing the codebase.
+                </p>
+                <img src="/Users/cgarcia/Web-develop/Projects/cheatsheet/resources/images/group-selector.png" alt="group-selector">
+            </li>
+        </ul>
+    </div>
+</body>
+<footer>
+    <h4>Website made by Carlos G - October 2024</h4>
+</footer>
+</html>

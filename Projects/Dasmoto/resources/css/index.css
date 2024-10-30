@@ -1,0 +1,31 @@
+* {
+    font-family: Helvetica;
+}
+h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    display: block;
+    background-image: url("/Users/cgarcia/Web-develop/Projects/Dasmoto/resources/images/pattern.jpeg");
+    margin: 67px auto;
+}
+h2 {
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+.brushes h2 {
+    background-color: mediumspringgreen;
+}
+.frames h2 {
+    background-color: lightcoral;
+}
+.paint h2 {
+    background-color: skyblue;
+}
+span {
+    font-weight: bold;
+    color: blue;
+}
